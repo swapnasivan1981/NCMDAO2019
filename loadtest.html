@@ -10,17 +10,18 @@
   }
   </style>
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+ jQuery(document).ready(function(){
+$( "#new-projects" ).load( "resources/load.html");
+});
+</script>
 </head>
 <body>
  
 <b>Projects:</b>
 <ol id="new-projects"></ol>
  
-<script>
- jQuery(document).ready(function(){
-$( "#new-projects" ).load( "resources/load.html");
-});
-</script>
+
  
 </body>
 </html>
